@@ -1,0 +1,100 @@
+
+.container {
+    margin: 20px auto;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.container .jumbotron {
+  color: black;
+  margin: 20px auto;
+  position: relative;
+}
+
+.row {
+      display: flex;
+      flex-flow: row wrap;
+      color: black;
+}
+
+.column {
+      flex: 1;
+      margin: 20px;
+      overflow: auto;
+      height: 500px;
+      background-color: gray;
+    }
+
+h2{
+  color: brown;
+  font-weight: bolder;
+}
+
+h3{
+      font-size-adjust: 25%;
+      text-align: center;
+      color: black;
+      font-weight: bolder;
+    }   
+p{
+  margin: 10px;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
